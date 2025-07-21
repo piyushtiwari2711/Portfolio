@@ -51,7 +51,7 @@ const About = () => {
               <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center p-1">
                 <div className="w-72 h-72 bg-gray-800 rounded-full overflow-hidden">
                   <img 
-                    src="/piyushpic.png" 
+                    src="./piyushpic.png" 
                     alt="Piyush Tiwari" 
                     className="w-full h-full object-cover" style={{ objectPosition: 'center 40%' }}
                   />
