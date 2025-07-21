@@ -47,16 +47,16 @@ const Header = () => {
             animate={{ opacity: 1 }}
             className="text-2xl font-bold text-white"
           >
-            PT
+            {/* PT */}
           </motion.div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex flex-grow justify-center items-center space-x-12">
             {navItems.map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-white hover:text-blue-400 transition-colors duration-200 flex items-center space-x-1"
+                className="text-white hover:text-blue-400 transition-colors duration-200 flex items-center space-x-2 px-3 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               >
                 <item.icon size={16} />
                 <span>{item.name}</span>
