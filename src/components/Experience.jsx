@@ -10,23 +10,24 @@ const Experience = () => {
 
   const experiences = [
     {
+      title: 'Freelance Full-Stack Developer',
+      company: 'Creating Dimensions',
+      period: '05/2025 - 06/2025',
+      location: 'Remote',
+      description: 'Built a scalable EdTech platform with Firebase backend, implementing secure payment systems and content access control for educational content.',
+      skills: ['React.js', 'Firebase', 'Payment Integration', 'Full-Stack Development'],
+      color: 'from-purple-500 to-purple-600'
+    },
+    {
       title: 'IBM Frontend Trainee',
       company: 'IBM',
-      period: '07/2025 - Present',
+      period: '07/2025 - 08/2025',
       location: 'Remote',
       description: 'Building responsive UIs using React and working with REST APIs. Collaborating with cross-functional teams to deliver high-quality frontend solutions.',
       skills: ['React.js', 'JavaScript', 'REST APIs', 'UI/UX', 'Team Collaboration'],
       color: 'from-blue-500 to-blue-600'
     },
-    {
-      title: 'Freelance Full-Stack Developer',
-      company: 'Self-Employed',
-      period: '05/2025 - Present',
-      location: 'Remote',
-      description: 'Built a scalable EdTech platform with Firebase backend, implementing secure payment systems and content access control for educational content.',
-      skills: ['React.js', 'Firebase', 'Payment Integration', 'Full-Stack Development'],
-      color: 'from-purple-500 to-purple-600'
-    }
+    
   ];
 
   const containerVariants = {
